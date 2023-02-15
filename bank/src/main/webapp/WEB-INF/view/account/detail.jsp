@@ -1,27 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ include file="../layout/header.jsp" %>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bank apllication</title>
-    <style>
-        .user-box {
-            border: 1px solid black;
-            padding: 10px;
-        }
-
-        .list-box {
-            margin-top: 20px;
-            border: 1px solid black;
-            padding: 10px;
-        }
-    </style>
-</head>
-
-
-<body>
     <h1>계좌상세보기</h1>
     <hr />
     <div class="user-box">
@@ -55,6 +34,5 @@
         </table>
 
     </div>
-</body>
 
-</html>
+<%@ include file="../layout/footer.jsp" %>
