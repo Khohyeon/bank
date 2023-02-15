@@ -10,6 +10,15 @@ create table account_tb(
     number varchar not null unique,
     password varchar not null,
     balance bigint not null,
-    userId int not null,
+    user_id int,
+    created_at timestamp 
+);
+create table history_tb(
+    id int auto_increment primary key,
+    amount bigint not null,
+    w_balance bigint,
+    d_balance bigint,
+    w_account_id int,
+    d_account_id int,
     created_at timestamp 
 );
